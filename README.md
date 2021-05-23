@@ -15,8 +15,8 @@ $ docker exec --tty --interactive  dockstack  bash
 
 
 ## debug
-- docker error creating aufs mount to xxxx
-https://stackoverflow.com/questions/38514361/docker-error-creating-aufs-mounts-invalid-argument-booting-from-live-usb
+- docker error creating aufs mount to xxxx </br>
+https://stackoverflow.com/questions/38514361/docker-error-creating-aufs-mounts-invalid-argument-booting-from-live-usb </br>
 Change /etc/default/docker to have this in it:
 ```console
 DOCKER_OPTS="--storage-driver=devicemapper"
