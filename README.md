@@ -7,7 +7,7 @@
 
 ## installation
 ```console
-$ https://github.com/z6s469s1/dockstack_queens.git
+$ git clone https://github.com/z6s469s1/dockstack_queens.git
 $ cd DockStack
 $ make
 $ docker exec --tty --interactive  dockstack  bash
