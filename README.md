@@ -21,6 +21,12 @@ Change /etc/default/docker to have this in it:
 ```console
 DOCKER_OPTS="--storage-driver=devicemapper"
 ```
+- create instance error
+wait 60min and then executre below commands
+```console
+$ docker stop dockstack
+$ dockstack
+```
 
 ## ref
 https://github.com/janmattfeld/DockStack
