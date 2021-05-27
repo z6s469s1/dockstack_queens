@@ -25,7 +25,7 @@ DOCKER_OPTS="--storage-driver=devicemapper"
 wait 60min and then executre below commands
 ```console
 $ docker stop dockstack
-$ dockstack
+$ docker start dockstack
 ```
 
 ## ref
