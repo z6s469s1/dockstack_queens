@@ -2,8 +2,14 @@
 
 ## requirement
 - ubuntu 18.04
-- docker
-- docker compose
+- docker as root
+https://ithelp.ithome.com.tw/articles/10239123
+
+
+```console
+$ sudo apt install make      
+$ sudo apt install make-guile
+```
 
 ## installation
 ```console
